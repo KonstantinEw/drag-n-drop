@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px;
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background-color: bisque;
+}
+
+.button:active {
+  transform: scale(0.8);
+}
+
+.input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  outline: none;
+}
